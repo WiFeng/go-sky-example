@@ -1,0 +1,7 @@
+{"level":"\u001b[34mINFO\u001b[0m","time":"2021-02-23T11:53:42.034+0800","caller":"database/database.go:51","msg":"Init database [db] {Name:db Driver:mysql Host:127.0.0.1 Port:3306 User:root Pass:123456 DB:test Charset:utf8mb4}"}
+{"level":"\u001b[34mINFO\u001b[0m","time":"2021-02-23T11:53:42.035+0800","caller":"redis/redis.go:48","msg":"Init redis [rdb] {Name:rdb Host:127.0.0.1 Port:6379 Auth: DB:0}"}
+{"level":"\u001b[34mINFO\u001b[0m","time":"2021-02-23T11:53:42.037+0800","caller":"elasticsearch/elasticsearch.go:48","msg":"Init elasticsearch [es] {Name:es Addrs:[http://localhost:9200] Username: Password: CustomTranport:false Transport:{Customized:false MillSecUnit:false IdleConnTimeout:0s TLSHandshakeTimeout:0s ExpectContinueTimeout:0s ResponseHeaderTimeout:0s MaxConnsPerHost:0 MaxIdleConns:0 MaxIdleConnsPerHost:0 DisableKeepAlives:false DisableCompression:false}}"}
+{"level":"\u001b[34mINFO\u001b[0m","time":"2021-02-23T11:53:42.037+0800","caller":"go-sky@v0.2.0/sky.go:74","msg":"Load config successfully","path":"./conf//config.toml","env":""}
+{"level":"\u001b[34mINFO\u001b[0m","time":"2021-02-23T11:53:42.038+0800","caller":"http/pprof.go:20","msg":"Start HTTP PProf. http://:7031"}
+{"level":"\u001b[34mINFO\u001b[0m","time":"2021-02-23T11:53:42.038+0800","caller":"http/server.go:96","msg":"serve start","transport":"HTTP","addr":":7030"}
+{"level":"\u001b[34mINFO\u001b[0m","time":"2021-02-23T11:53:42.038+0800","caller":"prometheus/prometheus.go:26","msg":"Start HTTP Prometheus metrics. http://:7032"}

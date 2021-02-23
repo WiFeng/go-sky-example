@@ -4,7 +4,7 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/WiFeng/go-sky/sky-example/pkg/service"
+	"github.com/WiFeng/go-sky-example/pkg/service"
 )
 
 func decodeHTTPExampleEchoRequest(ctx context.Context, r *http.Request) (interface{}, error) {

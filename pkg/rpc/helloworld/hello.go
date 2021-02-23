@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"net/http"
 
-	skyhttp "github.com/WiFeng/go-sky/sky/http"
-	"github.com/WiFeng/go-sky/sky/log"
+	skyhttp "github.com/WiFeng/go-sky/http"
+	"github.com/WiFeng/go-sky/log"
 )
 
 const (

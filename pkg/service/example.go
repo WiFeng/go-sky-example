@@ -4,13 +4,13 @@ import (
 	"context"
 	"time"
 
-	"github.com/WiFeng/go-sky/sky/log"
+	"github.com/WiFeng/go-sky/log"
 
-	skydb "github.com/WiFeng/go-sky/sky/database"
-	skyes "github.com/WiFeng/go-sky/sky/elasticsearch"
-	skyredis "github.com/WiFeng/go-sky/sky/redis"
+	skydb "github.com/WiFeng/go-sky/database"
+	skyes "github.com/WiFeng/go-sky/elasticsearch"
+	skyredis "github.com/WiFeng/go-sky/redis"
 
-	"github.com/WiFeng/go-sky/sky-example/pkg/rpc/helloworld"
+	"github.com/WiFeng/go-sky-example/pkg/rpc/helloworld"
 )
 
 // ExampleEchoRequest ...
